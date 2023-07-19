@@ -1,0 +1,9 @@
+:root {
+  --board-size: 5;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(var(--board-size), 60px);
+  grid-template-columns: repeat(var(--board-size), 60px);
+}
